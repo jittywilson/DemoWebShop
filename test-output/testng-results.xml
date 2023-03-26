@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-25T12:53:07 IST" name="Default suite" finished-at="2023-03-25T12:53:21 IST" duration-ms="13697">
+    <groups>
+    </groups>
+    <test started-at="2023-03-25T12:53:07 IST" name="Default test" finished-at="2023-03-25T12:53:21 IST" duration-ms="13697">
+      <class name="com.demowebshop.testscript.RegisterTest">
+        <test-method is-config="true" signature="setExtent(org.testng.ITestContext)[pri:0, instance:com.demowebshop.testscript.RegisterTest@3270d194]" started-at="2023-03-25T12:53:07 IST" name="setExtent" finished-at="2023-03-25T12:53:07 IST" duration-ms="294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@5feff876]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method is-config="true" signature="setUP()[pri:0, instance:com.demowebshop.testscript.RegisterTest@3270d194]" started-at="2023-03-25T12:53:07 IST" name="setUP" finished-at="2023-03-25T12:53:13 IST" duration-ms="5251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method signature="tc_006_verifyRegistration()[pri:0, instance:com.demowebshop.testscript.RegisterTest@3270d194]" started-at="2023-03-25T12:53:13 IST" name="tc_006_verifyRegistration" finished-at="2023-03-25T12:53:21 IST" duration-ms="8008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tc_006_verifyRegistration -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.demowebshop.testscript.RegisterTest@3270d194]" started-at="2023-03-25T12:53:21 IST" name="tearDown" finished-at="2023-03-25T12:53:21 IST" duration-ms="379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=tc_006_verifyRegistration status=SUCCESS method=RegisterTest.tc_006_verifyRegistration()[pri:0, instance:com.demowebshop.testscript.RegisterTest@3270d194] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demowebshop.testscript.RegisterTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
